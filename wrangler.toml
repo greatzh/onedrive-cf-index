@@ -1,11 +1,12 @@
-name = "drive"
+name = "dark-smoke-1517"
 type = "webpack"
 workers_dev = true
-account_id = "b87997a496f985b46b927b3f24c61de1"
-zone_id = "b04152d2c33ff4653cec1a579be6d42a"
+account_id = "f33eebb3d1381c6a59b4834e0a5c4d3b"
+zone_id = "9566903e28ff3240075f18b5a34d243d"
 kv_namespaces = [
-    { binding = "BUCKET", preview_id = "55b0fc4e288a465fb225421f2af5d445", id = "09b0cf433f394b309d35d1ff3bd0bf39" }
+    { binding = "BUCKET", preview_id = "fe245768503d4c32b2cbdecfe57fda77", id = "e5cea7382b8e44519d9677ef40dcaeb1" }
 ]
 
 [env.staging]
 name = "drive-staging"
+

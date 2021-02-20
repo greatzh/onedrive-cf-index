@@ -3,8 +3,8 @@ import { favicon } from './favicon'
 const COMMIT_HASH = '6e91d1e3342969a45b21c2893a788ba3dc46f854'
 
 const pagination = (pIdx, attrs) => {
-  const getAttrs = (c, h, isNext) =>
-    `class="${c}" ${h ? `href="pagination?page=${h}"` : ''} ${isNext === undefined ? '' : `id=${c.includes('pre') ? 'pagination-pre' : 'pagination-next'}`
+        const getAttrs = (c, h, isNext) =>
+            `class="${c}" ${h ? `href="pagination?page=${h}"` : ''} ${isNext === undefined ? '' : `id=${c.includes('pre') ? 'pagination-pre' : 'pagination-next'}`
     }`
   if (pIdx) {
     switch (pIdx) {
@@ -48,7 +48,7 @@ export function renderHTML(body, pLink, pIdx) {
       <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
     </head>
     <body>
-      <nav id="navbar" data-turbolinks-permanent><div class="brand">📁 Spencer's OneDrive Index</div></nav>
+      <nav id="navbar" data-turbolinks-permanent><div class="brand">📁 Johnson's OneDrive Share</div></nav>
       ${body}
       <div class="paginate-container">${pagination(pIdx)}</div>
       <div id="flex-container" data-turbolinks-permanent style="flex-grow: 1;"></div>

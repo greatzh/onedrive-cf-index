@@ -22,14 +22,14 @@ const config = {
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
   refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
+  client_id: 'ff0ba54d-af12-40d3-846a-ba11c4c16198',
   client_secret: CLIENT_SECRET,
   redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
    */
-  base: '/Public',
+  base: '/public',
 
   /**
    * Feature: Pagination when a folder has multiple(>${top}) files
